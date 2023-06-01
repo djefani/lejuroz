@@ -63,7 +63,7 @@ body {
 
 .container__botao:hover {
     background-color: var(--botao-azul-efeito);
-    color: var(--fundo);
+    color: var(--contorno);
 }
 
 .botao__secundario {
@@ -126,7 +126,6 @@ body {
 }
 
 .redes {
-    font-family: var(--font-krona);
     font-weight: 400;
     font-size: 1.5rem;
 
@@ -142,8 +141,7 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
-    color: var(--cor-secundaria);
-    font-family: var(--font-montserrat);
+    color: var(--contorno);
     text-decoration: none;
     background-color: transparent;
     border: 2px solid var(--branco-principal);
